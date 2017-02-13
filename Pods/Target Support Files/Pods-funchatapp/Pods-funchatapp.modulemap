@@ -1,0 +1,6 @@
+framework module Pods_funchatapp {
+  umbrella header "Pods-funchatapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

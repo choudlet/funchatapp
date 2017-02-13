@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var username: UITextField!
+    @IBOutlet var email: UITextField!
+    @IBOutlet var password: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +24,26 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func loginButton_click(_ sender: AnyObject) {
+//        let email = "choudlette@gmail.com"
+//        let password = "test123"
+        FirebaseManager.Login(email: email.text!, password: password.text!) { (success:Bool) in
+            if(success) {
+              self.performSegue(withIdentifier: "showProfile", sender: sender)
+            }
+        }
+        
+      
+    }
+    @IBAction func createButton_click(_ sender: Any) {
+        FirebaseManager.CreateAccount(email: email.text!, password: password.text!, username: username.text!) {
+            (result:String) in
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "showProfile", sender: sender)
+            }
+        }
+    }
+    
+    
 }
 

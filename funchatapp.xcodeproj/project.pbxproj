@@ -13,6 +13,17 @@
 		040AEF181E47AB300088E417 /* funchatapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040AEF161E47AB300088E417 /* funchatapp.xcdatamodeld */; };
 		040AEF1A1E47AB300088E417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040AEF191E47AB300088E417 /* Assets.xcassets */; };
 		040AEF1D1E47AB300088E417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040AEF1B1E47AB300088E417 /* LaunchScreen.storyboard */; };
+		040AEF291E47AC800088E417 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040AEF281E47AC800088E417 /* GoogleService-Info.plist */; };
+		042B76531E49541300A43B73 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B76521E49541300A43B73 /* ProfileTableViewController.swift */; };
+		042B76551E4954C500A43B73 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B76541E4954C500A43B73 /* ChatViewController.swift */; };
+		042B76571E49558F00A43B73 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B76561E49558F00A43B73 /* SettingsViewController.swift */; };
+		042E4F781E4B8C2300CE53AE /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4F771E4B8C2300CE53AE /* chatTableViewCell.swift */; };
+		042E4F7A1E4B925F00CE53AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4F791E4B925F00CE53AE /* User.swift */; };
+		042E4F7C1E4B956E00CE53AE /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E4F7B1E4B956E00CE53AE /* ProfileManager.swift */; };
+		046D4D691E4FFC96009BC0E2 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D681E4FFC96009BC0E2 /* ProfileTableViewCell.swift */; };
+		04C97E151E4A8BA10026C602 /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C97E141E4A8BA10026C602 /* PostManager.swift */; };
+		04EDFB981E4A2EF000853720 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDFB971E4A2EF000853720 /* FirebaseManager.swift */; };
+		CA49D384AADB25D7CA1CA92C /* Pods_funchatapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FEC257FDAF03D1E3A2510F /* Pods_funchatapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,20 @@
 		040AEF191E47AB300088E417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040AEF1C1E47AB300088E417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040AEF1E1E47AB300088E417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040AEF281E47AC800088E417 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		040AEF3A1E4901FE0088E417 /* funchatapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = funchatapp.entitlements; sourceTree = "<group>"; };
+		042B76521E49541300A43B73 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		042B76541E4954C500A43B73 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		042B76561E49558F00A43B73 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		042E4F771E4B8C2300CE53AE /* chatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
+		042E4F791E4B925F00CE53AE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		042E4F7B1E4B956E00CE53AE /* ProfileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		046D4D681E4FFC96009BC0E2 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		04C97E141E4A8BA10026C602 /* PostManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		04EDFB971E4A2EF000853720 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		75FEC257FDAF03D1E3A2510F /* Pods_funchatapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_funchatapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EED15E0A537D669E4828C8 /* Pods-funchatapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funchatapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-funchatapp/Pods-funchatapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D17EA5EB3AB187157F287C72 /* Pods-funchatapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funchatapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-funchatapp/Pods-funchatapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA49D384AADB25D7CA1CA92C /* Pods_funchatapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +68,8 @@
 			children = (
 				040AEF0E1E47AB300088E417 /* funchatapp */,
 				040AEF0D1E47AB300088E417 /* Products */,
+				DA937992A1DD9145E9C0DB0E /* Pods */,
+				5E77BC1CC8F4614D96F93360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,43 @@
 		040AEF0E1E47AB300088E417 /* funchatapp */ = {
 			isa = PBXGroup;
 			children = (
+				040AEF3A1E4901FE0088E417 /* funchatapp.entitlements */,
 				040AEF0F1E47AB300088E417 /* AppDelegate.swift */,
 				040AEF111E47AB300088E417 /* ViewController.swift */,
+				042B76521E49541300A43B73 /* ProfileTableViewController.swift */,
+				042B76541E4954C500A43B73 /* ChatViewController.swift */,
+				042E4F771E4B8C2300CE53AE /* chatTableViewCell.swift */,
+				042B76561E49558F00A43B73 /* SettingsViewController.swift */,
 				040AEF131E47AB300088E417 /* Main.storyboard */,
 				040AEF191E47AB300088E417 /* Assets.xcassets */,
 				040AEF1B1E47AB300088E417 /* LaunchScreen.storyboard */,
 				040AEF1E1E47AB300088E417 /* Info.plist */,
 				040AEF161E47AB300088E417 /* funchatapp.xcdatamodeld */,
+				040AEF281E47AC800088E417 /* GoogleService-Info.plist */,
+				04EDFB971E4A2EF000853720 /* FirebaseManager.swift */,
+				04C97E141E4A8BA10026C602 /* PostManager.swift */,
+				042E4F791E4B925F00CE53AE /* User.swift */,
+				042E4F7B1E4B956E00CE53AE /* ProfileManager.swift */,
+				046D4D681E4FFC96009BC0E2 /* ProfileTableViewCell.swift */,
 			);
 			path = funchatapp;
+			sourceTree = "<group>";
+		};
+		5E77BC1CC8F4614D96F93360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75FEC257FDAF03D1E3A2510F /* Pods_funchatapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA937992A1DD9145E9C0DB0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98EED15E0A537D669E4828C8 /* Pods-funchatapp.debug.xcconfig */,
+				D17EA5EB3AB187157F287C72 /* Pods-funchatapp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040AEF211E47AB300088E417 /* Build configuration list for PBXNativeTarget "funchatapp" */;
 			buildPhases = (
+				C3B1130D7FA0D39E22CDD196 /* [CP] Check Pods Manifest.lock */,
 				040AEF081E47AB300088E417 /* Sources */,
 				040AEF091E47AB300088E417 /* Frameworks */,
 				040AEF0A1E47AB300088E417 /* Resources */,
+				D7D901D89DD8D298E56C8646 /* [CP] Embed Pods Frameworks */,
+				96FDC0AF06F83BFE2A972C14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +158,13 @@
 				TargetAttributes = {
 					040AEF0B1E47AB300088E417 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HRQ4C5D6HM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,12 +192,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				040AEF1D1E47AB300088E417 /* LaunchScreen.storyboard in Resources */,
+				040AEF291E47AC800088E417 /* GoogleService-Info.plist in Resources */,
 				040AEF1A1E47AB300088E417 /* Assets.xcassets in Resources */,
 				040AEF151E47AB300088E417 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96FDC0AF06F83BFE2A972C14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-funchatapp/Pods-funchatapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B1130D7FA0D39E22CDD196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D901D89DD8D298E56C8646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-funchatapp/Pods-funchatapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040AEF081E47AB300088E417 /* Sources */ = {
@@ -141,7 +255,16 @@
 			files = (
 				040AEF121E47AB300088E417 /* ViewController.swift in Sources */,
 				040AEF101E47AB300088E417 /* AppDelegate.swift in Sources */,
+				04EDFB981E4A2EF000853720 /* FirebaseManager.swift in Sources */,
+				042E4F7C1E4B956E00CE53AE /* ProfileManager.swift in Sources */,
+				042B76531E49541300A43B73 /* ProfileTableViewController.swift in Sources */,
+				042B76551E4954C500A43B73 /* ChatViewController.swift in Sources */,
+				042E4F781E4B8C2300CE53AE /* chatTableViewCell.swift in Sources */,
+				04C97E151E4A8BA10026C602 /* PostManager.swift in Sources */,
 				040AEF181E47AB300088E417 /* funchatapp.xcdatamodeld in Sources */,
+				046D4D691E4FFC96009BC0E2 /* ProfileTableViewCell.swift in Sources */,
+				042E4F7A1E4B925F00CE53AE /* User.swift in Sources */,
+				042B76571E49558F00A43B73 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +383,11 @@
 		};
 		040AEF221E47AB300088E417 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EED15E0A537D669E4828C8 /* Pods-funchatapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = funchatapp/funchatapp.entitlements;
+				DEVELOPMENT_TEAM = HRQ4C5D6HM;
 				INFOPLIST_FILE = funchatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = galvanizechris.funchatapp;
@@ -272,8 +398,11 @@
 		};
 		040AEF231E47AB300088E417 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17EA5EB3AB187157F287C72 /* Pods-funchatapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = funchatapp/funchatapp.entitlements;
+				DEVELOPMENT_TEAM = HRQ4C5D6HM;
 				INFOPLIST_FILE = funchatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = galvanizechris.funchatapp;
@@ -301,6 +430,7 @@
 				040AEF231E47AB300088E417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

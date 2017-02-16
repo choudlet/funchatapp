@@ -25,8 +25,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func loginButton_click(_ sender: AnyObject) {
-//        let email = "choudlette@gmail.com"
-//        let password = "test123"
+//
         FirebaseManager.Login(email: email.text!, password: password.text!) { (success:Bool) in
             if(success) {
               self.performSegue(withIdentifier: "showProfile", sender: sender)

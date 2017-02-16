@@ -24,7 +24,16 @@ class SettingsViewController: UIViewController, UINavigationControllerDelegate, 
     }
     
     override func viewWillAppear(_ animated:Bool ) {
+        let url:NSURL = NSURL(string:(selectedUser?.profileImageUrl)!)!
+        guard let data:NSData = NSData(contentsOf: url as URL) else {print("broken"); return}
+        
+        
+        
+        
         displayName.text = selectedUser?.username
+        if (selectedUser?.profileImageUrl != "") {
+            imageView.image = UIImage(data: data as Data)
+        }
     }
     
     @IBAction func getPhoto(_ sender: Any) {

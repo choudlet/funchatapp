@@ -45,7 +45,10 @@ class User: NSObject {
                     print(metadata)
                     if let downloadUrl = metadata?.downloadURL()?.absoluteString{
                         if (self.profileImageUrl == "") {
-                        
+                            self.profileImageUrl = downloadUrl
+                            
+                            FirebaseManager.databaseRef.child("users").child(self.uid).updateChildValues(["profileImageUrl": downloadUrl])
+                            
                         } else {
                             self.profileImageUrl = downloadUrl
                             
